@@ -1,4 +1,22 @@
-{"name":"ruang-berani","private":true,"type":"module",
-"scripts":{"dev":"vite","build":"vite build","start":"node server.js"},
-"dependencies":{"@supabase/supabase-js":"^2.45.0","express":"^4.19.2","react":"^18.3.1","react-dom":"^18.3.1","react-router-dom":"^6.26.0"},
-"devDependencies":{"@vitejs/plugin-react":"^4.3.1","vite":"^5.4.0"}}
+
+{
+  "name": "ruang-berani",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0",
+    "next": "^15.5.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "eslint-config-next": "^15.5.6"
+  }
+}
